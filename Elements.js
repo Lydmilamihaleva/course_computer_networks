@@ -54,10 +54,16 @@ function Computer() {
 			Max:255
 		},
 		{
-			Title: "Маска",
+			Title: "Маска (беспроводное подключение)",
 			Default: [0,0,0,0],
 			Min:0,
 			Max:255			
+		},
+		{
+			Title: "Маска (локальное подключение)",
+			Default: [0,0,0,0],
+			Min:0,
+			Max:255
 		},
 		{
 			Title: "Основной шлюз",
@@ -84,8 +90,20 @@ function Computer() {
 			True:1
 		},
 		{
-			Title: "MAC-адрес";
-			Default: "";
+			Title: "MAC-адрес",
+			Default: ""
+		},
+		{
+			Title: "Локальное соединение",
+			Default:0,
+			False:0,
+			True:1
+		},
+		{
+			Title: "Беспроводное соединение",
+			Default:0,
+			False:0,
+			True:1
 		}
 		
 	];
