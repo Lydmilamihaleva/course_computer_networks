@@ -1,1 +1,11 @@
+<script type = "/">
+var Cable = {
+    "Title": "Прямой кабель",
+    "TypeId": "PatchC",
+    "Settings":[{
+        "Title":"Соеденение, сторона 1",
+        "Title":"Соеденение, сторона 2",        
+    }],
 
+};
+</script>
